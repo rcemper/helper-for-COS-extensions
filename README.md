@@ -59,7 +59,7 @@ ZZDUMMY(%a)
 %SYS>
 ```
 And if you run it a second time ?
-it returns a standarr error status
+It returns a standard error %Status.
 ~~~
 %SYS>do ^zLangExample
 %objlasterror="0 ...ZZDUMMY^%ZLANGF00 already defined.........
@@ -76,6 +76,6 @@ typ="F"
 ERROR #5001: ZZDUMMY^%ZLANGF00 already defined
 %SYS>
 ~~~
-
-[Article in DC](https://community.intersystems.com/post/helper-objectscript-language-extensions)
-[see Video]()
+   
+[Article in DC](https://community.intersystems.com/post/helper-objectscript-language-extensions)    
+[see Video]()    
