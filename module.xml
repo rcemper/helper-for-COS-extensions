@@ -7,8 +7,8 @@
       <Version>0.0.1</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <Resource Name="mac/zLangExtender.MAC"/>
-      <Resource Name="mac/zLangExample.MAC"/>
+      <Resource Name="zLangExtender.MAC"/>
+      <Resource Name="zLangExample.MAC"/>
     </Module>
   </Document>
 </Export>
