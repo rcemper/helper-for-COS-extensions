@@ -3,7 +3,7 @@
   <Document name="language-extender.ZPM">
     <Module>
       <Name>language-extender</Name>
-      <Description>add customized Language Extensions programmatically</Description>
+      <Description>Add customized Language Extensions programmatically</Description>
       <Version>0.0.1</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
