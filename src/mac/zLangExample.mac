@@ -1,7 +1,7 @@
 ROUTINE zLangExample [Type=MAC]
 zLangExample ; show ow to use zLangExtender
 	kill
-	set tp="F"                   ; typ = function
+	set typ="F"                   ; typ = function
 	set label="ZZDUMMY"          ; function name
 	set line($i(line))=" ; "     ; code	
 	set line($i(line))=" ; just a demo dummy"
@@ -9,7 +9,7 @@ zLangExample ; show ow to use zLangExtender
 	set line($i(line))=" quit "" I got '""_%a_""' for test"""
 	set line($i(line))=" ; what a nice demo "	
 	set line($i(line))=" ; "	
-	set sc=$$cmd^zLangExtender(tp,label,.line)	
+	set sc=$$cmd^zLangExtender(typ,label,.line)	
 	write !
 	zwrite 
 	if 'sc do $system.OBJ.DisplayError(sc) quit
