@@ -1,8 +1,9 @@
+ROUTINE zLangExample [Type=MAC]
 zLangExample ; show ow to use zLangExtender
 	kill
-	set tp="F"                   ;
-	set label="ZZDUMMY"
-	set line($i(line))=" ; "	
+	set tp="F"                   ; typ = function
+	set label="ZZDUMMY"          ; function name
+	set line($i(line))=" ; "     ; code	
 	set line($i(line))=" ; just a demo dummy"
 	set line($i(line))="ZZDUMMY(%a) "
 	set line($i(line))=" quit "" I got '""_%a_""' for test"""
@@ -15,6 +16,6 @@ zLangExample ; show ow to use zLangExtender
 	write !,"**** try ****",!
 	set sc=$zzdummy("hi folks")
 	zw sc
-	write !
+	write !, "result:",!
 	xecute "zload %ZLANGF00 print"
 	quit	
