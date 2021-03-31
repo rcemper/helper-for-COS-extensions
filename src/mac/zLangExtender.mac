@@ -1,0 +1,26 @@
+ROUTINE zLangExtender [Type=MAC]
+zLangExtender; helper to add language extensions
+	quit
+ ; typ = "C" ... command extension
+ ;       "F" ... function extension
+ ;       "V" ... variable extension
+ ; ext = name of the extension
+ ; code (by ref) numbered array of lines to add
+ ; 
+cmd(typ,ext,&code)
+	new sc,%txt
+	if '$lf($lb("C","V","F"),typ) {
+		set sc=$system.Status.Error(5001,"Unknown type:"_typ)
+		quit sc
+ 		}
+	set %txt=ext_"^%ZLANG"_typ_"00"
+	if $L($TEXT(@%txt)) {
+		set sc=$system.Status.Error(5001,%txt_" already defined")
+		quit sc 
+		}
+	set %txt=##class(%Routine).%OpenId("%ZLANG"_typ_"00")
+	do %txt.MoveToEnd()
+	for sc=1:1:code do %txt.WriteLine(code(sc))
+	set sc=%txt.%Save()
+	if sc set sc=%txt.Compile("ck")	
+	quit sc		
