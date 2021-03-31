@@ -2,7 +2,6 @@
 
 zn "%SYS"
 Do ##class(Security.Users).UnExpireUserPasswords("*")
-
+zpm "load /opt/irisbuild/ -v":1
 zn "USER"
-zpm "load /opt/irisbuild/ -v":1:1
 halt
