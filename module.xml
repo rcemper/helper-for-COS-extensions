@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="objectscript-template.ZPM">
+  <Document name="language-extender.ZPM">
     <Module>
-      <Name>objectscript-template</Name>
-      <Version>1.1.2</Version>
+      <Name>language-extender</Name>
+      <Description></Description>
+      <Version>0.0.1</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
-      <Resource Name="dc.PackageSample.PKG"/>
+      <Resource Name="mac/zLanguageExtender.MAC"/>
+      <Resource Name="mac/zLanguageExample.MAC"/>
     </Module>
   </Document>
 </Export>
