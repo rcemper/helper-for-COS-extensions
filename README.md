@@ -25,7 +25,6 @@ Run the IRIS container with your project:
 $ docker-compose up -d
 ```
 ### How to Test it
-
 Open IRIS terminal:
 ```
 $ docker-compose exec demo iris session iris
@@ -61,8 +60,6 @@ And if you run it a second time ?
 it returns a standarr error status
 ~~~
 %SYS>do ^zLangExample
- 
- 
 %objlasterror="0 #ZZDUMMY^%ZLANGF00 already definedl%SYSce^zError+1^%SYSTEM.Status.1^1e^cmd+8^zLangExtender^1"e^zLangExample+10^zLangExample^1d^^^0"
 label="ZZDUMMY"
 line=6
@@ -79,3 +76,4 @@ FEHLER #5001: ZZDUMMY^%ZLANGF00 already defined
 ~~~
 
 [Article in DC](https://community.intersystems.com/post/helper-objectscript-language-extensions)
+[see Video]()
