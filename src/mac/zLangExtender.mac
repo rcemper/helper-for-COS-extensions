@@ -7,6 +7,8 @@ zLangExtender; helper to add language extensions
  ; ext = name of the extension
  ; code (by ref) numbered array of lines to add
  ; 
+ ; do cmd^zLangExtender(typ,ext,.code)   ;>> add extension
+ ;
 cmd(typ,ext,&code)
 	new sc,%txt
 	if '$lf($lb("C","V","F"),typ) {
