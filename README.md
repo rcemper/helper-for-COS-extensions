@@ -24,6 +24,16 @@ Run the IRIS container with your project:
 ```
 $ docker-compose up -d
 ```
+### How to Use it
+~~~
+ ; typ = "C" ... command extentson
+ ;       "F" ... function extension
+ ;       "V" ... variable Extensin
+ ; ext = name of the extension
+ ; code (by ref) numbered array of lines to add
+ ;  
+ ; do cmd^zLangExtender(typ,ext,.code)   ;>> add extension 
+~~~
 ### How to Test it
 Open IRIS terminal:
 ```
