@@ -68,8 +68,8 @@ ZZDUMMY(%a)
          ;
 %SYS>
 ```
-And if you run it a second time ?
-It returns a standard error %Status.
+And if you run it a second time ?    
+It returns a standard error %Status.   
 ~~~
 %SYS>do ^zLangExample
 %objlasterror="0 ...ZZDUMMY^%ZLANGF00 already defined.........
