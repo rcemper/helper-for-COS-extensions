@@ -8,7 +8,7 @@ on:
 
 env:
   # Change this section according to your needs
-  IMAGE_NAME:   helper-for-objectscript-language-extensions
+  IMAGE_NAME:   langextender
   SERVICE:      deploy-demo
   DOMAIN_NAME:  langextender.contest.community.intersystems.com
 
