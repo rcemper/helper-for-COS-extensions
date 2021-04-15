@@ -10,7 +10,7 @@ env:
   # Change this section according to your needs
   IMAGE_NAME:   language-extender
   SERVICE:      deploy-demo
-  DOMAIN_NAME:  language-extender.contest.community.intersystems.com
+  DOMAIN_NAME:  langextender.contest.community.intersystems.com
 
   # Leave this section untouched
   PROJECT_ID:   hackathon-297608
