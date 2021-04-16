@@ -11,7 +11,7 @@ This package includes demo example to visualize the operation of this utility.
 ### Prerequisites
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.
 
-### Installation 
+### Installation   
 Clone/git pull the repo into any local directory
 ```
 $ git clone https://github.com/rcemper/helper-for-objectscript-language-extensions.git
