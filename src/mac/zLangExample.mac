@@ -1,7 +1,7 @@
 ROUTINE zLangExample [Type=MAC]
 zLangExample ; show ow to use zLangExtender
 	kill
-	set typ="F"                  ; typ = function
+	set typ="F"                  ; typ = function  
 	set label="ZZDUMMY"          ; function name
 	set line($i(line))=" ; "     ; code	
 	set line($i(line))=" ; just a demo dummy"
