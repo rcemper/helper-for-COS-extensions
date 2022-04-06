@@ -89,3 +89,4 @@ ERROR #5001: ZZDUMMY^%ZLANGF00 already defined
    
 [Article in DC](https://community.intersystems.com/post/helper-objectscript-language-extensions)    
 [see Video](https://youtu.be/_G2LYWxMIU0)    
+[Demo Server SMp](https://langextender.contest.community.intersystems.com/csp/sys/UtilHome.csp)    
