@@ -91,4 +91,6 @@ ERROR #5001: ZZDUMMY^%ZLANGF00 already defined
 
 [Video](https://youtu.be/_G2LYWxMIU0)    
 
-[DemoServerSMP](https://langextender.contest.community.intersystems.com/csp/sys/UtilHome.csp)    
+[DemoServer SMP](https://langextender.contest.community.intersystems.com/csp/sys/UtilHome.csp)    
+
+**code Quality** in SCREENSHOTS
