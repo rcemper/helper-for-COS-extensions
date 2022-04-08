@@ -93,4 +93,4 @@ ERROR #5001: ZZDUMMY^%ZLANGF00 already defined
 
 [DemoServer SMP](https://langextender.contest.community.intersystems.com/csp/sys/UtilHome.csp)    
 
-**code Quality** in SCREENSHOTS
+**Code Quality** in SCREENSHOTS
