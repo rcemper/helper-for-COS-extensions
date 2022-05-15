@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Export generator="Cache" version="25">
-  <Document name="lang-ext.ZPM">
+  <Document name="language-extender.ZPM">
     <Module>
-      <Name>lang-ext</Name>
+      <Name>language-extender</Name>
       <Description>Add customized Language Extensions programmatically</Description>
-      <Version>0.0.2</Version>
+      <Version>0.0.1</Version>
       <Packaging>module</Packaging>
       <SourcesRoot>src</SourcesRoot>
       <Resource Name="zLangExtender.MAC"/>
