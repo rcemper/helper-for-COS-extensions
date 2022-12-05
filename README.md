@@ -90,9 +90,3 @@ ERROR #5001: ZZDUMMY^%ZLANGF00 already defined
 [Article in DC](https://community.intersystems.com/post/helper-objectscript-language-extensions)    
 
 [Video](https://youtu.be/_G2LYWxMIU0)    
-
-[DemoServer SMP](https://language-extender.demo.community.intersystems.com/csp/sys/UtilHome.csp)    
-[DemoServer WebTermial](https://language-extender.demo.community.intersystems.com/terminal/)    
-
-**Code Quality**  
-<img width="85%" src="https://openexchange.intersystems.com/mp/img/packages/1293/screenshots/dmqdgsmohd6qvv5y3imkjc2rk4.jpg">
