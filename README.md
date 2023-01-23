@@ -1,12 +1,14 @@
 ### Helper for ObjectScript Language Extensions
+Creating your own commands or shortcut is one of the strongest features of ObjectScript    
 If you create your own Language Extensions to Object you mostly have to find the  
 proper %ZLANGC00 or %ZLANGV00 or %ZLANGF00 and add the extensions manually.  
+    
 A few utilities do it already automatically (ZPM, ZME, ..)   
 This utility allows you to add your extensions also programmatically.   
     (eg. at first run, or during installation)
-I found this quite useful for my Docker-based demos as it all happens at the start time.
+I found this quite useful for my Docker-based demos as it all happens at start time.
  
-This package includes demo example to visualize the operation of this utility.
+This package includes a demo example to visualize the operation of this utility.
 
 ### Prerequisites
 Make sure you have [git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git) and [Docker desktop](https://www.docker.com/products/docker-desktop) installed.
