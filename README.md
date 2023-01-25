@@ -1,3 +1,4 @@
+[![Gitter](https://img.shields.io/badge/Article%20on%20DC)](https://community.intersystems.com/post/helper-objectscript-language-extensions)
 ### Helper for ObjectScript Language Extensions
 Creating your own commands or shortcut is one of the strongest features of ObjectScript    
 If you create your own Language Extensions to Object you mostly have to find the  
