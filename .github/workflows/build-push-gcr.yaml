@@ -10,7 +10,7 @@ env:
   # Change this section according to your needs
   IMAGE_NAME:   language-extender
   SERVICE:      language-extender
-  DOMAIN_NAME:  language-extender.community.intersystems.com
+  DOMAIN_NAME:  language-extender.demo.community.intersystems.com
 
   # Leave this section untouched
   PROJECT_ID:   iris-community-demos
