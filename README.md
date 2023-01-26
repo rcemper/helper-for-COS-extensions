@@ -93,3 +93,6 @@ ERROR #5001: ZZDUMMY^%ZLANGF00 already defined
 [Article in DC](https://community.intersystems.com/post/helper-objectscript-language-extensions)    
 
 [Video](https://youtu.be/_G2LYWxMIU0)    
+
+[Online Demo](https://language-extender.demo.community.intersystems.com/csp/sys/UtilHome.csp)   
+[Oonline Terminal](https://language-extender.demo.community.intersystems.com/terminal/)   
