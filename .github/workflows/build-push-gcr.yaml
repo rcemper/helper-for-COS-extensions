@@ -1,6 +1,6 @@
 name: Cloud Run Deploy
 
-on:  
+on:
   push:
     branches:
     - master
