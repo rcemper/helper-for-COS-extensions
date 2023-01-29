@@ -5,8 +5,8 @@ If you create your own Language Extensions to Object you mostly have to find the
 proper %ZLANGC00 or %ZLANGV00 or %ZLANGF00 and add the extensions manually.  
     
 A few utilities do it already automatically (ZPM, ZME, ..)   
-This utility allows you to add your extensions also programmatically.   
-    (eg. at first run, or during installation)
+This utility allows you to add your extensions also programmatically.    
+- eg. at first run, or during installation    
 I found this quite useful for my Docker-based demos as it all happens at start time.
  
 This package includes a demo example to visualize the operation of this utility.
@@ -28,7 +28,7 @@ Run the IRIS container with your project:
 $ docker-compose up -d
 ```
 ### How to Use it
-~~~
+```
  ; typ = "C" ... command extentson
  ;       "F" ... function extension
  ;       "V" ... variable Extensin
@@ -36,7 +36,7 @@ $ docker-compose up -d
  ; code (by ref) numbered array of lines to add
  ;  
  ; do cmd^zLangExtender(typ,ext,.code)   ;>> add extension 
-~~~
+```
 ### How to Test it
 Open IRIS terminal:
 ```
