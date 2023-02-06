@@ -15,7 +15,7 @@ zLangExample ; show ow to use zLangExtender
 	if 'sc do $system.OBJ.DisplayError(sc) quit
 	write !,"**** try ****",!
 	set sc=$zzdummy("hi folks")
-	zw sc
+	zwrite sc
 	write !, "result:",!
 	xecute "zload %ZLANGF00 print"
 	quit	
