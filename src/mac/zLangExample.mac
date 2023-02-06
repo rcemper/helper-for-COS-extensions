@@ -16,6 +16,6 @@ zLangExample ; show how to use zLangExtender
 	write !,"**** try ****",!
 	set sc=$zzdummy("hi folks")
 	zwrite sc
-	write !, "result:",!
+	write !?5,$ZDATETIME($h,3)," result:",!
 	xecute "zload %ZLANGF00 print"
 	quit	
