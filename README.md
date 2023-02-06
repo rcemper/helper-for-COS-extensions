@@ -86,7 +86,10 @@ typ="F"
 ERROR #5001: ZZDUMMY^%ZLANGF00 already defined
 %SYS>
 ~~~
-   
+
+#### Warning
+It is meant mainly for COS experts !  
+
 [Article in DC](https://community.intersystems.com/post/helper-objectscript-language-extensions)    
 
 [Video](https://youtu.be/_G2LYWxMIU0)    
