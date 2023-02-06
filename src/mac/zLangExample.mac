@@ -1,5 +1,5 @@
 ROUTINE zLangExample [Type=MAC]
-zLangExample ; show ow to use zLangExtender
+zLangExample ; show how to use zLangExtender
 	kill
 	set typ="F"                  ; typ = function  
 	set label="ZZDUMMY"          ; function name
