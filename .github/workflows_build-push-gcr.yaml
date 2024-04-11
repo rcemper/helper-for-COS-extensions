@@ -7,7 +7,7 @@ on:
     - main
 
 env:
-  # Change this section according to your needs
+  # Change this section according to your needs 
   IMAGE_NAME:   language-extender
   SERVICE:      language-extender
   DOMAIN_NAME:  language-extender.demo.community.intersystems.com
